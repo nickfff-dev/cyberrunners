@@ -462,6 +462,7 @@ h1{
   margin-left: 100px;
   margin-top: 100px;
   font-size: 20px;
+  color: white;
 }
 
 
@@ -469,13 +470,35 @@ h1{
   margin-left: -15px;
 }
 
-.sticker-rarity{
-  margin-left: 360px;
-  margin-top: -250px;
 
+.sticker-rarity{
+  margin-left: 400px;
+  margin-top: -50px;
+  z-index: 100;
 }
 
 .rarity-txt{
   margin-top: 100px;
-  
+  margin-left: 100px;
+  color: #4f3e72;
+  font-size: 20px;
+}
+
+.explore{
+  margin-left: 100px;
+}
+
+.rarity-title{
+  font-size: 80px;
+  margin-left:100px;
+  margin-top: 100px;
+  color:  #4f3e72;
+}
+
+
+
+
+.paragraph-2{
+
+  font-size: 13px;
 }
