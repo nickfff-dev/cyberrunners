@@ -604,3 +604,21 @@ h1{
 
   
 
+.roadmap{
+  background-color: #cdaafa;
+}
+
+.roadmap-txt{
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.roadmap-sp{
+  font-size: 15px;
+}
+
+.pink-ttl{
+  font-size: 50px;
+  font-family: "Vermin Vibes";
+  color: #fff;
+}
