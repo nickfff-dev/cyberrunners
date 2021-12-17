@@ -246,6 +246,7 @@ h1{
   .header-art{
     margin-top: 30px;
     margin-left: 100px;
+    
   
     
    
@@ -379,14 +380,13 @@ h1{
 
 @media screen and (max-width: 576px) {
   .header-art{
-    position: absolute;
     
-    width: 50%;
-    margin-left: -50px;
+   
+    margin-left: -25px;
 
   }
   .socials{
-    margin-left:-10px;
+    left:-10px;
    
   }
 }
@@ -410,12 +410,13 @@ h1{
 
 
 @media screen and (max-width: 400px) {
+  
   .header-art{
     position: absolute;
    
     
     width: 50%;
-    left: 250px;
+    left: 200px;
 
   }
   .socials{
@@ -429,11 +430,16 @@ h1{
 
 
 .logo{
-  margin-left: -0.05px;
+  margin-left: 10px;
+}
+.header-navbar{
+  margin-left: -40px;
+}
+.wallet{
+  font-size: 10px;
+  margin-left: -50px;
 }
 }
-
-
 
 
 #about-text{
@@ -454,7 +460,8 @@ h1{
   margin-top: -50px;
   z-index: 100;
   width: 200px;
-  height: 100px;
+  height: auto;
+  
 }
 
 
@@ -463,6 +470,7 @@ h1{
   margin-top: 100px;
   font-size: 20px;
   color: white;
+  overflow: hidden;
 }
 
 
@@ -484,6 +492,7 @@ h1{
   margin-left: 100px;
   color: #4f3e72;
   font-size: 20px;
+  overflow: hidden;
 }
 
 .explore{
@@ -492,6 +501,7 @@ h1{
 
 .rarity-title{
   font-size: 80px;
+ 
   margin-left:100px;
   margin-top: 100px;
   color:  #4f3e72;
@@ -508,6 +518,25 @@ h1{
 
 
 @media screen and (max-width: 300px) {
+  .socials{left:10px;
+  }
+
+  .front{font-size: 6vw;}
+  .behind{font-size: 8vw;}
+  .header-navbar{
+    margin-left: -30px;
+  }
+  .header-art{
+    margin-left: -60px;
+  }
+  .logo{
+    margin-left: 20px;
+  }
+  .homeart{
+    left: -50px;
+  }
+  .shares{padding-left:5px;}
+  
 
   body{
  margin-left: -20px;
@@ -527,3 +556,51 @@ h1{
   background-image: url("images/about-1.png");
   background-size: cover;
 }
+
+
+
+@media screen and (max-width: 1430px) {
+  .carousel-indicators{
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-indicators{
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+ 
+  .rarity-title{ font-size: 10vw;}
+  .rarity-txt{ font-size: 4vw; }
+  .about-p{font-size: 4vw;}
+  .sticker-about{
+    width: 50vw;}
+  .carousel-indicators{
+    margin-top: -250px;
+  }
+}
+
+@media creen and (min-width: 1698px) {
+  .carousel-indicators{
+    margin-top: 3000px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .carousel-indicators{
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-indicators{
+    display: none;
+  }
+  
+}
+
+  
+
