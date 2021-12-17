@@ -523,3 +523,7 @@ h1{
 
 
 
+.about{
+  background-image: url("images/about-1.png");
+  background-size: 150%;
+}
