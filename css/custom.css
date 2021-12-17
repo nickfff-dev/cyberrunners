@@ -372,7 +372,7 @@ h1{
 
 .carousel-indicators{
 
-  top: 470px;
+  top: 500px;
 
  
 }
@@ -443,8 +443,29 @@ h1{
 
 #rarity{
   background-color: #9be7a9;
+  margin-top: 100px;
 }
 
 
 
+
+.sticker-about{
+  margin-left: 100px;
+  margin-top: -50px;
+  z-index: 100;
+  width: 200px;
+  height: 100px;
+}
+
+
+.about-p{
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+
+.rarity-image{
+  margin-left: -15px;
+}
   
