@@ -475,6 +475,8 @@ h1{
   margin-left: 400px;
   margin-top: -50px;
   z-index: 100;
+  width: 200px;
+  height: auto;
 }
 
 .rarity-txt{
@@ -503,3 +505,12 @@ h1{
   font-size: 13px;
   
 }
+
+
+@media screen and (max-width: 300px) {
+
+  body{
+ margin-left: -20px;
+
+  }
+  }
