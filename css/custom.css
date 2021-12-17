@@ -1,0 +1,450 @@
+@font-face {font-family: "BankSansCapsEFEL-Bol"; src: url("https://db.onlinewebfonts.com/t/eed8e04cdfd9f975fa0117715f24756e.eot"); src: url("//db.onlinewebfonts.com/t/eed8e04cdfd9f975fa0117715f24756e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/eed8e04cdfd9f975fa0117715f24756e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/eed8e04cdfd9f975fa0117715f24756e.woff") format("woff"), url("//db.onlinewebfonts.com/t/eed8e04cdfd9f975fa0117715f24756e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/eed8e04cdfd9f975fa0117715f24756e.svg#BankSansCapsEFEL-Bol") format("svg"); }
+
+@font-face {font-family: "Vermin Vibes"; src: url("//db.onlinewebfonts.com/t/e3c6568f663d720746429b638227d340.eot"); src: url("//db.onlinewebfonts.com/t/e3c6568f663d720746429b638227d340.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e3c6568f663d720746429b638227d340.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e3c6568f663d720746429b638227d340.woff") format("woff"), url("//db.onlinewebfonts.com/t/e3c6568f663d720746429b638227d340.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e3c6568f663d720746429b638227d340.svg#Vermin Vibes") format("svg"); }
+
+ul{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    margin-left:-20px;
+ 
+    
+  }
+  
+  li.nav-item{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    transform-origin: center center;
+    list-style-type: none;
+    
+    color: white;
+    padding-top: 47px;
+ 
+    
+    
+      
+  }
+
+  body{
+    background-color: #191919;
+    font-family: 'BankSansCapsEFEL-Bol', sans-serif;
+  }
+
+
+.nav-link{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px; 
+    font-weight: 500;
+    
+}
+
+
+.nav-pills .nav-item .nav-link:no(.active) {
+  background-color: rgba(255, 255, 255, 1);
+  color: #191919;
+  width: auto;
+}
+
+.nav-pills .nav-item .nav-link:is(.active) {
+  background-color: rgba(255, 255, 255, 1);
+  color: #191919;
+  width: auto;
+}
+
+.nav-pills .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #191919;
+  
+
+}
+
+
+
+
+
+
+.wallet{
+  background: transparent;
+  border: 2px solid white;
+  width: auto;
+  height: auto;
+  color:white;
+}
+
+
+.fa-discord{
+  color: white;  
+  background: transparent;
+  padding: 3px;
+}
+
+.fa-twitter{
+  color: white;
+  border: 1px solid white;
+  padding: 3px;
+ 
+
+}
+
+.fa-instagram{
+  color: white;
+  padding: 3px;
+  
+
+ 
+ 
+}
+
+.socials{
+  display: flex;
+  flex-flow: row ;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+  
+}
+
+.logo{
+  height: auto;
+  width: auto;
+  margin-left: 35px;
+  
+
+  
+}
+
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+.header-art{
+  
+  display: flex;
+  flex-flow: row ;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 50px;
+
+  
+}
+
+
+
+h1{
+  font-family: 'Vermin Vibes', cursive;
+  font-size: 200px;
+ 
+
+
+}
+
+.behind{
+  position: absolute;
+  text-align: center;
+  z-index: -300;
+  padding: 0;
+  color:rgba(255, 255, 255, 1);
+  font-size:11.5vw;
+  
+  top: 0;
+  left: -400px;
+  width: auto;
+  height: auto;
+}
+
+
+.front{
+  position: absolute;
+  text-align: center;
+  font-family: 'Vermin Vibes', cursive;
+  z-index: 300;
+  padding: 0;
+  font-size: 200px;
+  font-size:11.5vw;
+  top: 200px;
+  left: -400px;
+  
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(190, 187, 187);
+  letter-spacing: 3px;
+  width: auto;
+  height: auto;
+
+}
+
+.drop-date{
+
+  margin-top: 400px;
+  margin-left: 250px;
+ 
+  
+}
+.homeart{
+  margin-top: -50px;
+  margin-left: 300px;
+ 
+  
+}
+
+@media screen and (max-width: 1300px) {
+ 
+  .drop-date{
+    margin-top: 400px;
+    margin-left: 100px;
+   
+    
+  }
+  .homeart{
+    margin-top: -50px;
+    margin-left: 100px;
+   
+    
+  }
+  .front{
+    font-size: 50px;
+    margin-left: 300px;
+    top: 250px;
+  }
+
+  .behind{
+    font-size: 50px;
+    margin-left: 300px;
+    top: 100px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 620px) {
+ 
+  .drop-date{
+  margin-top: 300px;
+  margin-left: -100px;
+  width:50%;
+  height: auto;
+
+   
+    
+   
+    
+  }
+  .socials{
+    margin-left: 190px;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-evenly;
+    width:100%;
+    
+  }
+
+  .header-art{
+    margin-top: 30px;
+    margin-left: 100px;
+  
+    
+   
+    
+  }
+  .front{
+    font-size: 30px;
+    margin-left: 300px;
+    top: 200px;
+  }
+
+  .behind{
+    font-size: 30px;
+    margin-left: 310px;
+    top: 150px;
+  }
+  .homeart{
+    margin-left: -100px;
+    margin-top: 50px;
+  }
+
+  .shares{
+    padding-left: 20px;
+  }
+ 
+}
+  
+
+
+.special{
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+  /* show 3 items */
+  .carousel-inner .active,
+  .carousel-inner .active + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item {
+    
+      display: block;
+  }
+  
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+     
+  }
+  
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+    
+  }
+  
+  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+      padding-left: 5px;
+  }
+  
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+      
+  }
+  
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+     
+      
+  }
+  
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+      
+  }
+
+}
+.carousel-inner{
+  display: flex;
+  flex-flow: row ;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+.gallery{
+  margin-top:50px;
+  height: 60%;
+}
+
+.carousel-indicators{
+
+  top: 470px;
+
+ 
+}
+
+@media screen and (max-width: 576px) {
+  .header-art{
+    position: absolute;
+    
+    width: 50%;
+    margin-left: -50px;
+
+  }
+  .socials{
+    margin-left:-10px;
+   
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header-art{
+    position: absolute;
+    
+    width: 50%;
+    left: 270px;
+
+  }
+  .socials{
+    margin-left:-10px;
+   
+  }
+.drop-date{
+  margin-left: -100px;
+}
+}
+
+
+@media screen and (max-width: 400px) {
+  .header-art{
+    position: absolute;
+   
+    
+    width: 50%;
+    left: 250px;
+
+  }
+  .socials{
+    margin-left: 110px;
+    width: 30%;
+   
+  }
+  .drop-date{
+  margin-left: -100px;
+}
+
+
+.logo{
+  margin-left: -0.05px;
+}
+}
+
+
+
+
+#about-text{
+  background-color: #da4d6e;
+
+}
+
+#rarity{
+  background-color: #9be7a9;
+}
+
+
+
+  
