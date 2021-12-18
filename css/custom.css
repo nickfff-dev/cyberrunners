@@ -82,6 +82,7 @@ ul{
 .fa-twitter{
   color: white;
   border: 1px solid white;
+  padding: 3px;
   
  
 
@@ -729,10 +730,46 @@ font-size: 1vw;
 
 
 .hexaman{
-  color: #ab3f3f !important;
+  color: #fff;
 }
 
 
 .kristina{
-  color: #7994c0;
+  color: #fff;
+}
+
+.fa-instagram.hexaman{
+  background-color: #ab3f3f;
+}
+
+.fa-twitter.hexaman{
+  background-color: #ab3f3f;
+  border: 0px;
+  
+
+  
+}
+
+.fa-instagram.kristina{
+  background-color: #7994c0;
+}
+
+.fa-twitter.kristina{
+  background-color: #7994c0;
+  padding: 2px;
+  border: 0px;
+}
+
+.team-sub{
+  color: white;
+  font-size: 20px;
+}
+
+.job-k{
+  color: white;
+
+}
+
+.job-h{
+  color: white;
 }
