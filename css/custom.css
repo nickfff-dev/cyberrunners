@@ -697,3 +697,20 @@ font-size: 1vw;
   margin-left: 300px;
   margin-top: -50px;
 }
+
+
+.launch{
+  background-color: #ffd682;
+}
+
+
+.active.carousel-item>.po1{
+  background-color: #fff;
+  padding: 10px;
+
+}
+
+.po-ttl2{
+  font-size: 25px;
+
+}
