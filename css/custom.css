@@ -191,6 +191,15 @@ h1{
 }
 
 @media screen and (max-width: 1300px) {
+  .roadmap-txt{
+    font-size: 2vw;
+  }
+  .pink-ttl{
+    font-size: 5vw;
+  }
+  .roadmap-title{
+    font-size: 10vw;
+  }
  
   .drop-date{
     margin-top: 400px;
