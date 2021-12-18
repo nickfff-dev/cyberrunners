@@ -82,7 +82,7 @@ ul{
 .fa-twitter{
   color: white;
   border: 1px solid white;
-  padding: 3px;
+  
  
 
 }
@@ -720,4 +720,19 @@ font-size: 1vw;
   font-family: "Vermin Vibes";
   color: #fff;
 
+}
+
+.team-sticker{
+  margin-left: 400px;
+  margin-top: -50px;
+}
+
+
+.hexaman{
+  color: #ab3f3f !important;
+}
+
+
+.kristina{
+  color: #7994c0;
 }
