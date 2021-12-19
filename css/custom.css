@@ -400,12 +400,7 @@ h1{
 }
 
 @media screen and (max-width: 576px) {
-  .header-art{
-    
-   
-    margin-left: -25px;
-
-  }
+ 
   .socials{
     left:-10px;
    
@@ -417,15 +412,16 @@ h1{
     position: absolute;
     
     width: 50%;
-    left: 270px;
+    left: 200px;
+    top: -70px;
 
   }
   .socials{
-    margin-left:-10px;
+    margin-left:-80px;
    
   }
- .drop-date{
-  margin-left: -100px;
+ .logo{
+  margin-left: -1px;
 }
 }
 
@@ -882,3 +878,28 @@ font-size: 1vw;
   margin-left: 100px;
   margin-top: 30px;
 }
+
+
+@media screen and (max-width: 220px) {
+  body{
+   width :240px;
+   margin-left: -10px;
+   text-align: center;
+  
+  }
+  .shares{
+    padding: 2px;
+  }
+  .logo{
+    margin-left: -45px;
+  }
+  .header-navbar{
+    font-size: 10px;
+   
+
+  }
+  
+}
+  
+
+  
