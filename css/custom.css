@@ -832,7 +832,7 @@ font-size: 1vw;
 }
 
 .header-art{
-  margin-left: 90px;
+  margin-left: 40px;
 }
 .job-k{
   color: white;
@@ -846,4 +846,33 @@ font-size: 1vw;
 .shares{
   padding-left: 20px;
   font-size: 10px;
+}
+
+
+.card-body{
+  background-color: 
+  #1f254e;
+  color:rgba(255, 255, 255, 1);
+  
+}
+.card{
+  border-radius: 0px;
+  border: 0px transparent;
+  font-family: "Vermin Vibes";
+  
+
+ margin-top: 100px;
+ margin-left: 50px;
+}
+
+.join.btn{
+
+  background-color: #ffcf96;
+  color:#1f254e;
+
+}
+
+
+.join.fa-discord{
+  color: #1f254e;
 }
