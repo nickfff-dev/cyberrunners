@@ -18,7 +18,7 @@ ul{
     list-style-type: none;
     
     color: white;
-    padding-top: 47px;
+    padding-top: 30px;
  
     
     
@@ -593,7 +593,7 @@ h1{
   }
 
   #about{
-    margin-top: -60px;
+    margin-top: -10px;
   }
  
 
@@ -737,6 +737,7 @@ font-size: 1vw;
 
 
 @media screenz and (max-width: 850px){
+  
   .clothing{
     position: relative;
   }
@@ -882,7 +883,7 @@ font-size: 1vw;
 
 @media screen and (max-width: 220px) {
   body{
-   width :240px;
+   width :250px;
    margin-left: -10px;
    text-align: center;
   
@@ -898,8 +899,59 @@ font-size: 1vw;
    
 
   }
-  
+
+.card{
+  margin-left: -5px;
+}
+li.nav-item{
+  padding-top: 5px;
+}
 }
   
 
   
+@media screen and (max-width: 660px) {
+  .header-art{
+    margin-left: -1px;
+  }
+
+  .front{
+    font-size: 48px;
+    
+  }
+.behind{
+  font-size: 50px;
+  }
+  li.nav-item{
+    padding-top: 5px;
+  }
+  .header-navbar{
+    margin-left: -40px;
+  }
+  
+}
+
+
+.footer{
+  color: white;
+  list-style: none;
+}
+
+.list{
+  list-style: none;
+  margin-top: 30px;
+  
+}
+
+.copyright{
+  font-size: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Vermin Vibes";
+  letter-spacing: 2px;
+}
+.foot{
+  color:white;
+}
+
+
