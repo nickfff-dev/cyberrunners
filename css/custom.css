@@ -18,7 +18,7 @@ ul{
     list-style-type: none;
     
     color: white;
-    padding-top: 30px;
+    padding-top: 36px;
  
     
     
@@ -458,10 +458,6 @@ h1{
     font-size: 5px;
   }
 
-  body{
-    width: 100%;
-  }
- 
   
   .header-navbar{
     font-size: 10px;
@@ -583,8 +579,10 @@ h1{
     margin-left: 20px;
   }
  
-  .shares{padding-left:5px;
-  font-size:10px;}
+  .shares{
+  padding-left:5px;
+  font-size:10px;
+}
 
   .header-navbar{
     height: 10%;
@@ -737,7 +735,7 @@ font-size: 1vw;
 
 
 @media screenz and (max-width: 850px){
-  
+
   .clothing{
     position: relative;
   }
@@ -768,7 +766,7 @@ font-size: 1vw;
 
 .po-ttl2{
   font-size: 15px;
-  font-size: 3vw;
+  
 
 }
 
@@ -812,7 +810,7 @@ font-size: 1vw;
 
 .fa-twitter.kristina{
   background-color: #7994c0;
-  padding: 2px;
+  
   border: 0px;
 }
 
@@ -859,7 +857,7 @@ font-size: 1vw;
   
 
  margin-top: 100px;
- margin-left: 50px;
+ margin-left: 30px;
 }
 
 .join.btn{
@@ -955,3 +953,6 @@ li.nav-item{
 }
 
 
+section{
+  padding-bottom: 30px;
+}
