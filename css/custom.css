@@ -1027,9 +1027,10 @@ section{
 
 #num3{
   height: auto;
+  width:auto;
 }
 
-.cyberart{
+#num3{
 
   height: auto;
   float: right;
@@ -1037,7 +1038,7 @@ section{
 }
 
 @media screen and (max-width: 768px){
-  .cyberart{
+  #num3{
     margin-top: -500px;
   }
 
@@ -1045,7 +1046,7 @@ section{
 
 
 @media screen and (max-width: 600px){
-  .cyberart{
+  #num3{
     margin-top: -350px;
   }
 
