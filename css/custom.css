@@ -493,6 +493,8 @@ h1{
 #rarity{
   background-color: #9be7a9;
   margin-top: 100px;
+  padding-bottom: 5px;
+
 }
 
 
@@ -872,10 +874,16 @@ font-size: 1vw;
   color: #1f254e;
 }
 
+.explore-stck{
+  width: 60px;
+  height: auto;
+  float: right;
+  margin-top: -40px;
+
+}
 
 .explore{
 background-color:#2b2656;
-  margin-top: 30px;
   
 }
 .rarity-btn
@@ -991,4 +999,26 @@ section{
   width: 150px;
   height: auto;
   float: right;
+}
+.roadmap-stck{
+  width: 100px;
+  height: auto;
+  margin-top: -80px;
+}
+
+.po-sticker{
+  width: 150px;
+  margin-top:-20px;
+}
+
+.team-stck{
+
+  width: 100px;
+  height: auto;
+  float: right;
+  margin-top: -70px;
+}
+
+.figure{
+  padding-right: 5px;
 }
