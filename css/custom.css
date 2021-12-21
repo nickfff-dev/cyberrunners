@@ -192,7 +192,7 @@ h1{
 .homeart{
  height: auto;
  margin-top: -70px;
- width: auto;
+ width: 800px;
  
   
 }
@@ -496,6 +496,11 @@ h1{
 }
 
 
+.nasir{
+  margin-top:50px;
+}
+
+
 
 
 .sticker-about{
@@ -509,11 +514,11 @@ h1{
 
 
 .about-p{
-  margin-left: 100px;
+  
   margin-top: 100px;
   font-size: 20px;
   color: white;
-  overflow: hidden;
+
 }
 
 
@@ -526,10 +531,8 @@ h1{
 
 .rarity-txt{
 
-  margin-left: 100px;
   color: #4f3e72;
   font-size: 20px;
-  overflow: hidden;
 }
 
 
@@ -537,7 +540,6 @@ h1{
 .rarity-title{
   font-size: 60px;
  
-  margin-left:100px;
   
   color:  #4f3e72;
 }
@@ -872,10 +874,17 @@ font-size: 1vw;
 
 
 .explore{
-  margin-left: 100px;
+background-color:#2b2656;
   margin-top: 30px;
+  
 }
-
+.rarity-btn
+{
+  color: #fff;
+}
+.rarity-image{
+  padding-right: 120px;
+}
 
 @media screen and (max-width: 220px) {
   body{
@@ -960,3 +969,26 @@ section{
   color: #d12028;
 }
 
+
+.sticker{
+  width:150px;
+  height: auto;
+  z-index: 100;
+  float: right;
+  margin-top: -150px;
+}
+
+.cyberrunner{
+  float:left;
+  z-index: 100;
+  width: 150px;
+  height: auto;
+  margin-top: -50px;
+}
+
+.rarity-stck{
+  margin-top: -20px;
+  width: 150px;
+  height: auto;
+  float: right;
+}
