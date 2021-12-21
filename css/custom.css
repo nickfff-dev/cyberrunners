@@ -1008,6 +1008,7 @@ section{
 
 .po-sticker{
   width: 150px;
+  height: auto;
   margin-top:-20px;
 }
 
@@ -1021,4 +1022,32 @@ section{
 
 .figure{
   padding-right: 5px;
+}
+
+
+#num3{
+  height: auto;
+}
+
+.cyberart{
+
+  height: auto;
+  float: right;
+  margin-top: -550px;
+}
+
+@media screen and (max-width: 768px){
+  .cyberart{
+    margin-top: -500px;
+  }
+
+}
+
+
+@media screen and (max-width: 600px){
+  .cyberart{
+    margin-top: -350px;
+  }
+
+  
 }
