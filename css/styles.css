@@ -3000,7 +3000,7 @@ textarea.form-control-lg {
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  cursor: pointer;
+  cursor: pointer ;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -3031,13 +3031,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #d12028;
+  border-color: #d12028;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #d12028;
+  border-color: #d12028;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
