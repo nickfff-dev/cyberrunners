@@ -81,6 +81,7 @@ ul{
   border-color: #fff;
   color:white;
   font-size: 10px;
+  letter-spacing: 2px;
     
 }
 
@@ -89,6 +90,7 @@ ul{
   border-color: #d12028;
   color:white;
   font-size: 10px;
+  font-weight: 900;
     
 }
 
@@ -923,7 +925,7 @@ section{
 
   height: auto;
   float: right;
-  margin-top: -550px;
+  margin-top: -850px;
 }
 
 @media screen and (max-width: 768px){
