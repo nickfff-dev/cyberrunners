@@ -694,11 +694,7 @@ h1{
   margin-left: -20px;
 
 }
-.homeart{
-  height:auto;
-  width: auto;
 
-}
 }
 
 
@@ -900,6 +896,7 @@ background-color:#2b2656;
 }
 
 @media screen and (max-width: 220px) {
+ 
   body{
    width :250px;
    margin-left: -10px;
@@ -922,27 +919,15 @@ background-color:#2b2656;
   margin-left: -5px;
 }
 li.nav-item{
-  padding-top: 5px;
+  padding-top: 20px;
 }
 }
   
 
   
 @media screen and (max-width: 660px) {
-  .header-art{
-    margin-left: -1px;
-  }
-
-  .front{
-    font-size: 48px;
-    
-  }
-.behind{
-  font-size: 50px;
-  }
-  li.nav-item{
-    padding-top: 5px;
-  }
+  
+ 
   .header-navbar{
     margin-left: -40px;
   }
@@ -1044,7 +1029,7 @@ section{
 
 @media screen and (max-width: 768px){
   #num3{
-    margin-top: -500px;
+    margin-top: -700px;
   }
 
 }
@@ -1052,7 +1037,7 @@ section{
 
 @media screen and (max-width: 600px){
   #num3{
-    margin-top: -250px;
+    margin-top: -650px;
   }
 
   
@@ -1061,7 +1046,7 @@ section{
 
 @media screen and (max-width: 350px){
   #num3{
-    margin-top: -300px;
+    margin-top: -600px;
    
     
   }
