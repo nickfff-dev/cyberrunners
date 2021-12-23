@@ -82,6 +82,14 @@ ul{
     
 }
 
+.wallet:hover{
+  background: #d12028;
+  border-color: #d12028;
+  color:white;
+  font-size: 10px;
+    
+}
+
 
 .fa-discord{
   color: white;  
@@ -89,11 +97,22 @@ ul{
   padding: 3px;
 }
 
+.shares > .fa-discord:hover{
+  color: #d12028;
+
+}
+
+
 .fa-twitter{
   color: white;
   padding: 3px;
   
  
+
+}
+
+.shares > .fa-twitter:hover{
+  color: #d12028;
 
 }
 
@@ -104,6 +123,12 @@ ul{
 
  
  
+}
+
+.shares > .fa-instagram:hover{
+  color: #d12028;
+
+
 }
 .social{
   display: flex;
