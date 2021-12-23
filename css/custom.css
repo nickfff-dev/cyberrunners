@@ -137,16 +137,7 @@ ul{
 }
 
 
-.header-art{
-  
-  display: flex;
-  flex-flow: row ;
-  justify-content: space-evenly;
-  align-items: center;
- 
 
-  
-}
 
 
 
@@ -158,49 +149,10 @@ h1{
 
 }
 
-.behind{
-  position: absolute;
-  text-align: center;
-  z-index: -300;
-  padding: 0;
-  color:rgba(255, 255, 255, 1);
-  font-size:11.5vw;
-  
-  top: 0;
-  left: -350px;
-  width: auto;
-  height: auto;
-}
 
 
-.front{
-  position: absolute;
-  text-align: center;
-  font-family: 'Vermin Vibes', cursive;
-  z-index: 300;
-  padding: 0;
-  font-size: 200px;
-  font-size:11.5vw;
-  top: 200px;
-  left: -350px;
-  
-  color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(190, 187, 187);
-  letter-spacing: 3px;
-  width: auto;
-  height: auto;
-
-}
 
 
-.homeart{
- height: auto;
- margin-top: -70px;
- width: 800px;
- 
-  
-}
 
 @media screen and (max-width: 1300px) {
   .roadmap-txt{
@@ -213,30 +165,8 @@ h1{
     font-size: 10vw;
   }
  
-  .drop-date{
-    margin-top: 400px;
-    margin-left: 100px;
-   
-    
-  }
+  
  
-  .front{
-    font-size: 100px;
-    margin-left: 300px;
-    top: 250px;
-  }
-
-  .behind{
-    font-size: 100px;
-    margin-left: 300px;
-    top: 100px;
-  }
-  .homeart{
-    margin-top: -50px;
-    margin-left: 10px;
-   
-    
-  }
 }
 
 
@@ -245,17 +175,7 @@ h1{
 
 @media screen and (max-width: 620px) {
  
-  .drop-date{
-  margin-top: 300px;
-  margin-left: -100px;
-  width:50%;
-  height: auto;
-
-   
-    
-   
-    
-  }
+  
   .socials{
     margin-left: 190px;
     display: flex;
@@ -265,31 +185,8 @@ h1{
     
   }
 
-  .header-art{
-    margin-top: 30px;
-    margin-left: 100px;
-    
   
-    
-   
-    
-  }
-  .front{
-    font-size: 30px;
-    margin-left: 300px;
-    top: 200px;
-  }
-
-  .behind{
-    font-size: 30px;
-    margin-left: 310px;
-    top: 150px;
-  }
-  .homeart{
-    margin-left: -100px;
-    margin-top: 50px;
-  }
-
+  
   .shares{
     padding: 10px;
   }
@@ -409,14 +306,7 @@ h1{
 }
 
 @media screen and (max-width: 730px) {
-  .header-art{
-    position: absolute;
-    
-    width: 50%;
-    left: 200px;
-    top: -70px;
-
-  }
+  
   .socials{
     margin-left:-80px;
    
@@ -434,16 +324,7 @@ h1{
   }
   
   
-  .header-art{
-    position: absolute;
-   
-    
-    width: 50%;
-    left: 120px;
-    text-align: center;
-    font-size: 40px;
-
-  }
+  
   .socials{
    margin-left:45px;
    font-size: 10px;
@@ -479,15 +360,7 @@ h1{
   font-size: 10px;
   margin-left: -50px;
 }
-.front{
-  font-size: 27px;
-  margin-top: -50px;
-}
-.behind{
-  
-  margin-top: -70px;
 
-}
 
 }
 #about-text{
@@ -569,13 +442,7 @@ h1{
   .socials{left:-10px;
   }
 
-  .front{font-size: 7vw;
-    margin-top: -80px;
-   
-  }
-  .behind{font-size: 8vw;
-    margin-top: -80px;
-  }
+  
   .header-navbar{
     margin-left: -30px;
   }
@@ -628,9 +495,7 @@ h1{
   .carousel-indicators{
     margin-top: -200px;
   }
-  .homeart{
-    left: -100px;
-  }
+ 
 }
 
 @media screen and (max-width: 330px) {
@@ -829,9 +694,7 @@ font-size: 1vw;
   margin-left: -30px;
 }
 
-.header-art{
-  margin-left: 40px;
-}
+
 .job-k{
   color: white;
 
