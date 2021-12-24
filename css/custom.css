@@ -813,6 +813,8 @@ background-color:#2b2656;
 .rarity-btn
 {
   color: #fff;
+  font-size: 10   px;
+  padding-bottom:10px;
 }
 .rarity-image{
   padding-right: 120px;
