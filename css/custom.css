@@ -1025,7 +1025,20 @@ section{
     
   }
 
-  
+  li.nav-item{
+    padding-top: 3px;
+    line-height: 4px;
+  }
+  .socials{
+    font-size: 3px;
+  }
+
+  .wallet{
+      font-size: 5px;
+  }
+  .logo{
+    margin-left: -20px;
+  }
 
 }
 
