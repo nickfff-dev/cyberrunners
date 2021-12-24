@@ -441,7 +441,7 @@ h1{
 .about-p{
   
   margin-top: 100px;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
 
 }
@@ -457,13 +457,14 @@ h1{
 .rarity-txt{
 
   color: #4f3e72;
-  font-size: 20px;
+  font-size: 15px;
+
 }
 
 
 
 .rarity-title{
-  font-size: 60px;
+  font-size: 50px;
  
   
   color:  #4f3e72;
@@ -583,7 +584,9 @@ h1{
 
 .roadmap-txt{
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 25px;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
 .roadmap-sp{
@@ -603,6 +606,9 @@ h1{
   width: 60%;
   margin-left: -20px;
 
+}
+li.nav-item{
+  font-size: 10px;
 }
 
 }
@@ -755,7 +761,9 @@ font-size: 1vw;
 }
 
 .card-text{
-  font-family: "OPTIBankGothicmed"
+  font-family: "OPTIBankGothicmed";
+  font-size: 10px;
+  letter-spacing: 1px;
 }
 .card-body{
   background-color: 
@@ -860,7 +868,7 @@ li.nav-item{
 }
 
 .copyright{
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 30px;
   padding-bottom: 30px;
   font-family: "Vermin Vibes";
@@ -868,6 +876,7 @@ li.nav-item{
 }
 .foot{
   color:white;
+  font-size:10px;
 }
 
 
@@ -943,6 +952,9 @@ section{
 @media screen and (max-width: 768px){
   #num3{
     margin-top: -700px;
+  }
+  .socials{
+    margin-left: 0px;
   }
 
 }
