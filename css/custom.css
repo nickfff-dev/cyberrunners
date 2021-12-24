@@ -262,9 +262,10 @@ h1{
   /* show 3 items */
   .carousel-inner .active,
   .carousel-inner .active + .carousel-item,
-  .carousel-inner .active + .carousel-item + .carousel-item {
+  .carousel-inner .active + .carousel-item + .carousel-item  {
     
       display: block;
+     
   }
   
   .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
@@ -278,6 +279,7 @@ h1{
   .carousel-inner .carousel-item-prev {
     position: relative;
     transform: translate3d(0, 0, 0);
+    opacity: 0.7;
     
   }
   
