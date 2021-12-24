@@ -9,6 +9,7 @@
   box-sizing: border-box;
 }
 
+
 ul{
     display: flex;
     flex-flow: column nowrap;
@@ -36,11 +37,13 @@ ul{
     
       
   }
+  
 
   body{
     background-color: #191919;
     font-family: 'OPTIBankGothic';
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+ 
   }
   .roadmap-img{
     margin-left: 15px;
