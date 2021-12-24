@@ -24,8 +24,9 @@ ul{
     transform-origin: center center;
     list-style-type: none;
     letter-spacing: 3px;
-    line-height: 10px;
+    line-height: 9px;
     font-family: "OPTIBankGothic";
+    
     
     color: white;
     padding-top: 39px;
@@ -105,8 +106,8 @@ ul{
 .shares > .fa-discord:hover{
   color: #d12028;
   font-size: 15px;
-  padding:1px;
-  transition: all 0.5s ease
+  padding-left:0px;
+  transition: all 0.25s ease
 }
 
 
@@ -121,8 +122,9 @@ ul{
 .shares > .fa-twitter:hover{
   color: #d12028;
   font-size: 15px;
-  padding:1px;
-  transition: all 0.5s ease
+  padding-left:0px;
+  
+  transition: all 0.25s ease
 
 }
 
@@ -138,8 +140,8 @@ ul{
 .shares > .fa-instagram:hover{
   color: #d12028;
   font-size: 15px;
-  padding:1px;
-  transition: all 0.5s ease
+  padding-left:0px;
+  transition: all 0.25s ease
 
 
 
@@ -551,6 +553,9 @@ h1{
   
   .carousel-indicators{
     margin-top: -250px;
+  }
+  .logo{
+    margin-left: -10px;
   }
 }
 
