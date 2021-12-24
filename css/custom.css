@@ -873,12 +873,15 @@ li.nav-item{
   padding-bottom: 30px;
   font-family: "Vermin Vibes";
   letter-spacing: 2px;
+  color: #d12028;
 }
 .foot{
   color:white;
   font-size:10px;
 }
-
+#copy{
+  padding-right: 80px;
+}
 
 section{
   padding-bottom: 30px;

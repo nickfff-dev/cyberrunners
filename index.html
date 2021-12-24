@@ -18,6 +18,15 @@
 
 
   <title>Cyberrunners</title>
+  <script>
+    var mybutton = document.getElementById("myBtn");
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+
+        }
+        mybutton.addEventListener("click", topFunction);
+  </script>
 
 
 </head>
@@ -525,7 +534,8 @@
             </ul> 
           </div>
           <div class ="col-md-12 text-center copyright">
-            <span> @2021 cyberrunners all rights reserved </span>
+            <span id="copy"> @2021 cyberrunners all rights reserved </span>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
       
           </div>
       
