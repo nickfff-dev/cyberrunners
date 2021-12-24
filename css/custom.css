@@ -846,6 +846,9 @@ background-color:#2b2656;
 }
 
 @media screen and (max-width: 220px) {
+  .back-to-top{
+    display: none;
+  }
   .socials{
   width: 100%;
  
@@ -922,9 +925,7 @@ li.nav-item{
   color:white;
   font-size:10px;
 }
-#copy{
-  padding-right: 80px;
-}
+
 
 section{
   padding-bottom: 30px;
