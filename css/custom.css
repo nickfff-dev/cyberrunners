@@ -545,10 +545,6 @@ h1{
 
 @media screen and (max-width: 330px) {
  
-  .rarity-title{ font-size: 10vw;}
-  .rarity-txt{ font-size: 4vw; }
-  
-  .about-p{font-size: 4vw;}
 
   
   .carousel-indicators{
@@ -577,6 +573,7 @@ h1{
   }
   
 }
+
 
   
 
