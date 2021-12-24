@@ -43,6 +43,9 @@ ul{
     background-color: #191919;
     font-family: 'OPTIBankGothic';
     letter-spacing: 0.5px;
+    /* max-width: 1450px;
+    margin: auto; */
+
  
   }
   .roadmap-img{
@@ -88,7 +91,7 @@ ul{
   color:white;
   font-size: 10px;
   letter-spacing: 2px;
-    
+
 }
 
 .wallet:hover{
@@ -753,16 +756,21 @@ font-size: 1vw;
 
 .job-k{
   color: white;
+  font-size: 10px;
 
 }
 
 .job-h{
   color: white;
+  font-size: 10px;
 }
 
 .shares{
   padding-left: 20px;
   font-size: 10px;
+}
+.card-title{
+  font-family: "Vermin Vibes";
 }
 
 .card-text{
@@ -798,7 +806,7 @@ font-size: 1vw;
 
 .join.fa-discord{
   color: #1f254e;
-  
+ 
 }
 
 .explore-stck{
@@ -964,6 +972,7 @@ section{
 #num3{
   height: auto;
   width:auto;
+ 
 }
 
 #num3{
