@@ -755,7 +755,16 @@ font-size: 1vw;
 .header-navbar{
   margin-left: -30px;
 }
-
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 3.5%;
+  height: min-content;
+  background-color: #d12028;
+  color: #fff;
+  opacity: 0.5;
+}
 
 .job-k{
   color: white;
