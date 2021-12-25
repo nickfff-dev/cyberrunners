@@ -1,8 +1,8 @@
-*, .mint, *:before, *:after {
+*, *:before, *:after {
     box-sizing: border-box;
   }
 .mint{
-    max-width: 1200px;
+    
     margin: auto;
 }
 
