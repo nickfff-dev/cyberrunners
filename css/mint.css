@@ -21,7 +21,7 @@
 
 #mintss{
     display: block;
-    
+    font-size:12px;
 }
 
 
@@ -92,7 +92,7 @@ label{
 
 #mint-desc{
     font-size: 20px;
-    color: white;
+    color: #7ecbef;
    
    font-family: "vermin vibes";
    padding-top: 10px;

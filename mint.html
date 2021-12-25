@@ -64,7 +64,8 @@
                 <h2 class="register">register to join the raffel</h2>
                   
                    
-                        <label>number of cyberrunners you want to mint</label>
+                        <label>number of cyberrunners you want to mint :</label>
+                        <ol id="mintss" class="text-muted"> </ol>
                         <select class="custom-select col" id="exampleFormControlSelect1">
                           <option selected value="images/gallery/SCAVENGER-(09.27.21)-rgb-4-0.jpg">SCAVENGER-(09.27.21)-rgb-4-0</option>
                           <option value="images/gallery/SCAVENGER-(09.27.21)-rgb-5-0.jpg">SCAVENGER-(09.27.21)-rgb-5-0</option>
@@ -83,7 +84,7 @@
                             <option value="images/gallery/SCAVENGER-RARE-simple(11.04.21)-0-00.jpg">SCAVENGER-RARE-simple(11.04.21)-0-00</option>
 
                         </select>
-                        <ul id="mintss" class="text-muted"> </ul>
+                        
                     
 
                 <button type="submit"  class="mint-btn">mint cyber runners</button>
@@ -125,14 +126,32 @@
        <script>
            $(document).ready(function () {
                $("#mintss").empty();
-               
+               var mints = [];
                $("#exampleFormControlSelect1").change(function () {
+                   
                    var value = $(this).val();
+                   mints.push(value);
+                   console.log(mints)
                    $("#mintss").append("<li> <span class='mint-desc'>" + value.split("/")[2].replace(".jpg", "") + "</span></li>");
+               });
+               $(".mint-btn").click(function () {
+                   $.ajax({
+                       url: "#",
+                       type: "POST",
+                       data: {
+                           mints: mints
+                       },
+                       success: function () {
+                           $(".mint-btn").text("minted");
+                       },
+                       error: function (data) {
+                          $(".mint-btn").text("try again");
+                       }
+                   });
                });
            });
        </script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
