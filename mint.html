@@ -57,7 +57,7 @@
         <div class="row no-gutters">
             <div class="col-md-6">
                 <a href="index.html" >
-                    <i class="fas fa-chevron-left bckhm"><span class="bck">  back to home</span></i>
+                    <i class="fas fa-chevron-left bckhm"><span class="bck"> back to home</span></i>
 
                 </a>
                 <h1 class="mint-title"> want a cyberrunner</h1>
@@ -133,7 +133,11 @@
                    mints.push(value);
                    console.log(mints)
                    $("#mintss").append("<li> <span class='mint-desc'>" + value.split("/")[2].replace(".jpg", "") + "</span></li>");
+                   $('#mintss > li').click(function () {
+                       $(this).remove();
+                   });
                });
+               
                $(".mint-btn").click(function () {
                    $.ajax({
                        url: "#",
