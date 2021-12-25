@@ -35,7 +35,7 @@
 label{
     color: white;
     font-size: 12px;
-    padding: 4px;
+    padding-bottom: 10px;
 }
 
 
@@ -71,12 +71,24 @@ label{
     color: white;
     text-transform: lowercase;
     font-family:"vermin vibes";
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 
-.form-control{
+.custom-select{
     background-color: transparent;
     color: white;
     width: 85%;
     border-radius: 0px;
+    ;
+
+}
+
+#mint-desc{
+    font-size: 20px;
+    color: white;
+   float: right;
+   font-family: "vermin vibes";
+   padding: 10px;
 }

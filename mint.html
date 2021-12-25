@@ -20,6 +20,7 @@
 
 
     <title>mint</title>
+    
 </head>
 
 <body>
@@ -61,32 +62,74 @@
                 </a>
                 <h1 class="mint-title"> want a cyberrunner</h1>
                 <h2 class="register">register to join the raffel</h2>
-                <form id="mint-form">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">number of cyberrunners you want to mint</label>
-                        <select class="form-control form-control-md" id="exampleFormControlSelect1">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
-                      </div>
+                  
+                   
+                        <label>number of cyberrunners you want to mint</label>
+                        <select class="custom-select" id="exampleFormControlSelect1">
+                          <option selected value="images/gallery/SCAVENGER-(09.27.21)-rgb-4-0.jpg">SCAVENGER-(09.27.21)-rgb-4-0</option>
+                          <option value="images/gallery/SCAVENGER-(09.27.21)-rgb-5-0.jpg">SCAVENGER-(09.27.21)-rgb-5-0</option>
+                          <option value="images/gallery/SCAVENGER-(09.27.21)-rgb-8-0.jpg">SCAVENGER-(09.27.21)-rgb-8-0</option>
+                          <option value="images/gallery/SCAVENGER-(10.04.21)-4-0.jpg">SCAVENGER-(10.04.21)-4-0</option>
+                          <option value="images/gallery/SCAVENGER-(10.04.21)-5-0.jpg">SCAVENGER-(10.04.21)-5-0</option>
+                          <option value= "images/gallery/SCAVENGER-(10.04.21)-6-0.jpg">SCAVENGER-(10.04.21)-6-0</option>
+                          <option value="images/gallery/SCAVENGER-(10.04.21)-6-0.jpg">SCAVENGER-(10.07.21)-8-0</option>
+                          <option value="images/gallery/SCAVENGER-(10.08.21)-7-0.jpg">SCAVENGER-(10.08.21)-7-0</option>
+                          <option value="images/gallery/SCAVENGER-(10.1.21)-1-0.jpg">SCAVENGER-(10.1.21)-1-0</option>
+                          <option value="images/gallery/SCAVENGER-(10.1.21)-2-0.jpg"> SCAVENGER-(10.1.21)-2-0</option>
+                          <option value="images/gallery/ SCAVENGER-COMMON-(10.20.21)-005.jpg">SCAVENGER-COMMON-(10.20.21)-005</option>
+                          <option value="images/gallery/SCAVENGER-COMMON-(10.22.21)-011.jpg">SCAVENGER-COMMON-(10.22.21)-011</option>
+                            <option value="images/gallery/SCAVENGER-RARE-(10.23.21)-001.jpg">SCAVENGER-RARE-(10.23.21)-001</option>
+                            <option value="images/gallery/SCAVENGER-RARE-simple-part-2(11.05.21)-0021.jpg">SCAVENGER-RARE-simple-part-2(11.05.21)-0021</option>
+                            <option value="images/gallery/SCAVENGER-RARE-simple(11.04.21)-0-00.jpg">SCAVENGER-RARE-simple(11.04.21)-0-00</option>
 
-                <button type="button" class="mint-btn"  onclick="">mint cyber runners</button>
-                </form>
+                        </select>
+                    
+
+                <button type="button"  class="mint-btn">mint cyber runners</button>
+             
           
 
 
             </div>
             <div class="col-md-6">
-                <img src="images/gallery/SCAVENGER-RARE-(10.23.21)-001.jpg" alt="cyberrunners"
-                    class="mintphoto img-fluid">
+                <div class="col"> <img  alt="cyberrunners"
+                    class="mintphoto img-fluid" id="mintphoto" src="" >
+                    <div>
+
+                        <span id="mint-desc"></span>
+                    </div>
+                    </div>
+
+                
 
             </div>
+            <p id="mint-desc"></p>
+           
+        
 
         </div>
     </div>
+    <script>
+        $(document).ready(function () {
+            $("#mintphoto").attr("src", $("#exampleFormControlSelect1").val());
+            $("#mint-desc").text($("#exampleFormControlSelect1").val().split("/")[2].replace(".jpg", "")    );
+            $("#exampleFormControlSelect1").change(function () {
+                var value = $(this).val();
+                $("#mintphoto").attr("src", value);
+                $("#mint-desc").text(value.split("/")[2].replace(".jpg", ""));
+            });
+        });
+     
+       </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
