@@ -1,5 +1,8 @@
+*, .mint, *:before, *:after {
+    box-sizing: border-box;
+  }
 .mint{
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -15,27 +18,26 @@
     padding-bottom: 50px;
 }
 
-.mintphoto{
-    float: right;
-}
+
+
 
 .socials{
    font-size: 6px;
-   margin-left: 100px;
+   
+   
 }
 .wallet{
-    margin-left: 2px;
-    font-size: 5px;
+    font-size: 3px;
 }
 
 
 
-
+.shares{padding-right: 1px}
 
 label{
     color: white;
     font-size: 12px;
-    padding-bottom: 10px;
+     padding-bottom: 10px;
 }
 
 
@@ -57,9 +59,7 @@ label{
     padding-bottom: 80px;
 }
 
-.logodiv{
-    margin-left: -11px;
-}
+
 
 
 
@@ -88,7 +88,20 @@ label{
 #mint-desc{
     font-size: 20px;
     color: white;
-   float: right;
+   
    font-family: "vermin vibes";
-   padding: 10px;
+   padding-top: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .social{
+        margin-left:30px;
+    }
+    .logodiv{
+        margin-left: 20px;
+    }
+    #mintphoto{
+       margin-left: -15px;
+       margin-top: 20px;
+    }
 }
