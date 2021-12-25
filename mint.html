@@ -65,7 +65,7 @@
                   
                    
                         <label>number of cyberrunners you want to mint</label>
-                        <select class="custom-select" id="exampleFormControlSelect1">
+                        <select class="custom-select col" id="exampleFormControlSelect1">
                           <option selected value="images/gallery/SCAVENGER-(09.27.21)-rgb-4-0.jpg">SCAVENGER-(09.27.21)-rgb-4-0</option>
                           <option value="images/gallery/SCAVENGER-(09.27.21)-rgb-5-0.jpg">SCAVENGER-(09.27.21)-rgb-5-0</option>
                           <option value="images/gallery/SCAVENGER-(09.27.21)-rgb-8-0.jpg">SCAVENGER-(09.27.21)-rgb-8-0</option>
@@ -83,9 +83,10 @@
                             <option value="images/gallery/SCAVENGER-RARE-simple(11.04.21)-0-00.jpg">SCAVENGER-RARE-simple(11.04.21)-0-00</option>
 
                         </select>
+                        <ul id="mintss" class="text-muted"> </ul>
                     
 
-                <button type="button"  class="mint-btn">mint cyber runners</button>
+                <button type="submit"  class="mint-btn">mint cyber runners</button>
              
           
 
@@ -120,6 +121,16 @@
             });
         });
      
+       </script>
+       <script>
+           $(document).ready(function () {
+               $("#mintss").empty();
+               
+               $("#exampleFormControlSelect1").change(function () {
+                   var value = $(this).val();
+                   $("#mintss").append("<li> <span class='mint-desc'>" + value.split("/")[2].replace(".jpg", "") + "</span></li>");
+               });
+           });
        </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
