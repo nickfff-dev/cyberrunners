@@ -64,7 +64,7 @@ label{
 
 
 .mint-btn{
-    width: 85%;
+    
     height: 45px;
     background-color: #000062;
     border: 1px solid #000062;
@@ -79,7 +79,7 @@ label{
 .custom-select{
     background-color: transparent;
     color: #7dc8ec;
-    width: 85%;
+    
     border-radius: 0px;
     font-size: 10px;
 
